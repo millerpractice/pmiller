@@ -45,11 +45,9 @@ export default class Aboutus extends Component {
 <Grid item xs style={{ backgroundColor: lightGreen[100], minHeight: "max-content", maxHeight: 600, position: "relative",
 borderRadius:16, minWidth: 180, maxWidth: 500, marginTop:100}}>
 
-<ResponsiveImgMaterialUi xs={healthcaresm} sm={healthcaresm} md={healthcaremd} lg={healthcarelg} 
-style={{float: "right", marginTop: 10}}></ResponsiveImgMaterialUi>
 
 <ResponsiveImgMaterialUi xs={docxs} sm={docsm} md={docmd} lg={doclg} 
-style={{float: "right", bottom: 0, position:"absolute"}} ></ResponsiveImgMaterialUi>
+style={{right: 0, bottom: 0, position:"absolute"}} ></ResponsiveImgMaterialUi>
                 
                 </Grid>
                 </Grid>
