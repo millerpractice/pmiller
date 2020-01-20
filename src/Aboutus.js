@@ -4,9 +4,6 @@ import docxs from './doc comp xs2.png';
 import docsm from './doc comp xs.png';
 import docmd from './doc comp md.png';
 import doclg from './doc comp lg.png';
-import healthcaresm from "./healthcare sm.png"
-import healthcaremd from "./healthcare md.png"
-import healthcarelg from "./healthcare lg.png"
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import ScrollableAnchor from 'react-scrollable-anchor'
@@ -18,7 +15,7 @@ export default class Aboutus extends Component {
     render() {
         return (
             <ScrollableAnchor id={'aboutus'}>
-                <Grid container direction="row"  style={{ backgroundColor: lightGreen[100], minHeight:200 , maxHeight:700}}>
+                <Grid container direction="row"  style={{ backgroundColor: lightGreen[100], minHeight:200 , maxHeight:700, maxWidth:"100%"}}>
                     <Grid item xs style={{ backgroundColor: lightGreen[200], minHeight: "min-content",maxHeight:600, 
                     borderRadius:16, marginTop:60,paddingBottom:20,marginBottom:40,
                     minWidth: 180, maxWidth: 500, marginLeft: 80}}>
